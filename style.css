@@ -111,6 +111,7 @@
 .latest-section {
   display: flex;
   justify-content: center;
+  padding-bottom: 128px;
 }
 .latest-container {
   width: 1440px;
@@ -146,4 +147,35 @@
   margin-left: 287px;
   margin-right: 16px;
   border-radius: 8px;
+}
+/* footer section styles */
+footer {
+  width: 100vw;
+  height: 449px;
+  background-color: #111010;
+  padding-top: 128px;
+}
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 624px;
+  margin: 0 auto 32px;
+}
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 355px;
+  margin: 0 auto;
 }
