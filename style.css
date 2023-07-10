@@ -94,3 +94,16 @@
   max-width: 594px;
   margin: 0 auto;
 }
+/* flower section */
+.flower-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  gap: 24px;
+}
+.img-flower {
+  width: 342px;
+  height: 396px;
+}
