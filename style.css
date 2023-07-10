@@ -13,6 +13,9 @@
   font-weight: 700;
   border: none;
 }
+.color-primary {
+  color: #e55473;
+}
 /* banner section styles */
 .banner-section {
   width: 100vw;
@@ -40,4 +43,36 @@
 }
 .banner-img {
   width: 635px;
+}
+/* hot section styles */
+.hot-section {
+  height: 620px;
+  width: 100vw;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hot-content {
+  text-align: center;
+}
+.hot-header {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.hot-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 594px;
+  margin-bottom: 32px;
+}
+.hot-img {
+  width: 318px;
 }
