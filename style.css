@@ -255,3 +255,36 @@ footer {
   text-decoration-line: underline;
   margin-top: 32px;
 }
+/* support section styles */
+.support-section {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 128px;
+}
+.support-container {
+  display: flex;
+  width: 1440px;
+  height: 320px;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  align-items: center;
+}
+.support-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-support {
+  height: 88px;
+  width: 88px;
+  margin-bottom: 24px;
+}
+.support-caption {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
